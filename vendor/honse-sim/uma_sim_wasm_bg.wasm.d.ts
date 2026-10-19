@@ -1,0 +1,30 @@
+/* tslint:disable */
+/* eslint-disable */
+export const memory: WebAssembly.Memory;
+export const __wbg_wasmracesimulator_free: (a: number, b: number) => void;
+export const conditionSupportReport: (a: any) => [number, number, number];
+export const hpStrategyCoefficient: (a: number) => [number, number, number];
+export const knownConditionTokens: () => [number, number];
+export const maxHp: (a: number, b: number, c: number) => [number, number, number];
+export const runCompare: (a: any) => [number, number, number];
+export const runContestedCompare: (a: any) => [number, number, number];
+export const runRaceSim: (a: any) => [number, number, number];
+export const skillSupportReport: (a: any) => [number, number, number];
+export const wasmracesimulator_new: (a: any) => [number, number, number];
+export const wasmracesimulator_run: (a: number) => [number, number, number];
+export const wasmracesimulator_setOnAfterRunnerTick: (a: number, b: any) => void;
+export const wasmracesimulator_setOnBeforeTick: (a: number, b: any) => void;
+export const wasmracesimulator_setOnRoundEnd: (a: number, b: any) => void;
+export const wasmracesimulator_setOnRoundStart: (a: number, b: any) => void;
+export const wasmracesimulator_setOnRunnerFinished: (a: number, b: any) => void;
+export const gutsHpBurnMultiplier: (a: number) => number;
+export const skillActivationPercent: (a: number) => number;
+export const __wbindgen_malloc: (a: number, b: number) => number;
+export const __wbindgen_realloc: (a: number, b: number, c: number, d: number) => number;
+export const __wbindgen_exn_store: (a: number) => void;
+export const __externref_table_alloc: () => number;
+export const __wbindgen_externrefs: WebAssembly.Table;
+export const __externref_table_dealloc: (a: number) => void;
+export const __externref_drop_slice: (a: number, b: number) => void;
+export const __wbindgen_free: (a: number, b: number, c: number) => void;
+export const __wbindgen_start: () => void;
