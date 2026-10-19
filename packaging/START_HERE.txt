@@ -1,0 +1,35 @@
+Uma Race Lab / Windows x64
+
+EN
+1. Extract the ENTIRE archive to a normal folder. Keep _internal beside UmaRaceLab.exe.
+2. Run UmaRaceLab.exe. No separate Python or Node.js installation is needed.
+3. Select your own installed Umamusume: Pretty Derby Global master.mdb using Select database.
+   Typical location: <SteamLibrary>/steamapps/common/UmamusumePrettyDerby/
+   UmamusumePrettyDerby_Data/Persistent/master/master.mdb
+4. On first race, course geometry is read locally from that installation.
+   The necessary game resources must already have been downloaded by the game.
+5. Enter your builds, aptitude grades and skills, then simulate a race.
+
+Settings/builds: %LOCALAPPDATA%/UmaRaceLab
+To import old source-version builds: Load builds -> local/autosave-builds.json in the old project.
+To uninstall: delete this application folder. Your builds remain in the user-data folder.
+For a clean reset, back up and then remove that user-data folder separately.
+
+This is an unofficial research simulator. Native-game accuracy is not yet proven.
+No game files or player data are included. The game files are opened read-only.
+The executable is unsigned. See README.md, LICENSE and THIRD_PARTY.md.
+
+RU
+1. Распакуйте архив ЦЕЛИКОМ. Папка _internal должна находиться рядом с UmaRaceLab.exe.
+2. Запустите UmaRaceLab.exe. Отдельно устанавливать Python или Node.js не нужно.
+3. Нажмите «Выбрать базу» и укажите master.mdb собственной установки Global-версии игры.
+4. При первом расчёте геометрия трасс извлекается локально. Нужные ресурсы должны
+   быть предварительно загружены самой игрой.
+5. Введите характеристики, пригодности и навыки своих билдов, затем запустите гонку.
+
+Настройки и билды: %LOCALAPPDATA%/UmaRaceLab
+Старые билды: «Загрузить билды» -> local/autosave-builds.json из старой папки проекта.
+Удаление: удалите папку программы; личные билды останутся в пользовательской папке.
+
+Неофициальный исследовательский симулятор. Точное совпадение с игрой ещё не доказано.
+Файлы игры и данные игроков не входят в архив. Игра читается только для чтения.
